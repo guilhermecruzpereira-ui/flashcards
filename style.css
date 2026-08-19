@@ -30,3 +30,10 @@ width: 100%;
 .cartao-verso { 
   transform: rotateY(180deg); 
 } 
+.cartao:hover .cartao-interno { 
+  transform: rotateY(180deg); 
+} 
+section { 
+  display: flex; 
+  gap: 16px; 
+} 
